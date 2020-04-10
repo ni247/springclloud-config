@@ -2,7 +2,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://pubinfo:zhly@192.168.1.116:8011/eureka/
-    register-with-eureka: false
+    register-with-eureka: test1dev
     enabled: false
 
 spring:
@@ -28,3 +28,5 @@ logging:
 pubinfo:
   oauth2:
     allow-all-request: true
+info:
+    test: version_test1

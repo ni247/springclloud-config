@@ -28,3 +28,5 @@ logging:
 pubinfo:
   oauth2:
     allow-all-request: true
+info:
+    test: version_test2
